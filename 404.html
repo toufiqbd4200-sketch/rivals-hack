@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 · Page Not Found · Kaiser Hacks</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="refresh" content="3; url=index.html">
+  <style>
+    .not-found-wrapper {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .not-found-code {
+      font-family: var(--font-heading);
+      font-size: clamp(64px, 12vw, 120px);
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--color-emerald), var(--color-cyan));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+    .not-found-title {
+      font-family: var(--font-heading);
+      font-size: 24px;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 12px;
+    }
+    .not-found-desc {
+      font-size: 15px;
+      color: var(--text-secondary);
+      max-width: 480px;
+      margin-bottom: 28px;
+    }
+    .btn-return-home {
+      background: linear-gradient(135deg, var(--color-emerald), var(--color-cyan));
+      color: #000000;
+      padding: 12px 28px;
+      border-radius: var(--radius-sm);
+      font-size: 14px;
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.2s ease;
+    }
+    .btn-return-home:hover {
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-mesh-fixed" aria-hidden="true"></div>
+
+  <div class="not-found-wrapper">
+    <div class="not-found-code">404</div>
+    <h1 class="not-found-title">Aura Not Found</h1>
+    <p class="not-found-desc">
+      The coordinates you followed do not exist. Redirecting back to Kaiser Hacks command center in 3 seconds...
+    </p>
+    <a href="index.html" class="btn-return-home">
+      <span>⚡ Return to Kaiser Hacks</span>
+    </a>
+  </div>
+</body>
+</html>
