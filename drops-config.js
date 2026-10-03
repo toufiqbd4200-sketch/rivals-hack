@@ -18,7 +18,7 @@ const KAISER_SITE_INFO = {
   // When you create a Release on GitHub, you can paste the KaiserAimAssist-v2.0.zip release link here!
   // Example: "https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/releases/latest/download/KaiserAimAssist-v2.0.zip"
   // If left empty (""), it smoothly downloads the file from the local repository folder.
-  githubReleaseUrl: "",
+  githubReleaseUrl: "https://github.com/toufiqbd4200-sketch/rivals-hack/releases/download/v2.0/KaiserAimAssist-v2.0.zip",
 
   // 👉 LOCAL FALLBACK DIRECT DOWNLOAD:
   directDownloadUrl: "downloads/KaiserAimAssist-v2.0.zip",
